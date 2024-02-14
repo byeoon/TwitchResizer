@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TwitchResizer
@@ -47,11 +41,11 @@ namespace TwitchResizer
                         pictureBox2.Image.Save(saveFileDialog.FileName + label5.Text + ".png");
                         pictureBox3.Image.Save(saveFileDialog.FileName + label6.Text + ".png");
                         pictureBox4.Image.Save(saveFileDialog.FileName + label7.Text + ".png");
-                        MessageBox.Show("Operation completed succesfully.", "Twitch Resizer");
+                        MessageBox.Show("Operation completed succesfully.", "TwitchResizer");
                     }
                     catch
                     {
-                        MessageBox.Show("Failed to save files.", "Twitch Resizer");
+                        MessageBox.Show("Failed to save files.", "TwitchResizer");
                     }
 
 
@@ -146,11 +140,6 @@ namespace TwitchResizer
         {
             frmAbout about = new frmAbout();
             about.Show();
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

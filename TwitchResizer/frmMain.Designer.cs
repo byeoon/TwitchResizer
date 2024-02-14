@@ -227,7 +227,6 @@ namespace TwitchResizer
             label10.Size = new System.Drawing.Size(113, 21);
             label10.TabIndex = 17;
             label10.Text = "Size Presets";
-            label10.Click += label10_Click;
             // 
             // button3
             // 
